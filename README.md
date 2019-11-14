@@ -11,9 +11,10 @@ Code can be downloaded [ToHRSOD](https://pan.baidu.com/s/1nP5DMtV8OzLGXm4Ua8jU3w
 ## Citation
 If you find our datasets useful in your research, please consider citing:
 
-    @article{zeng2019towards,
-      title={Towards High-Resolution Salient Object Detection},
-      author={Zeng, Yi and Zhang, Pingping and Zhang, Jianming and Lin, Zhe and Lu, Huchuan},
-      journal={arXiv preprint arXiv:1908.07274},
-      year={2019}
+    @InProceedings{Zeng_2019_ICCV,
+      author = {Zeng, Yi and Zhang, Pingping and Zhang, Jianming and Lin, Zhe and Lu, Huchuan},
+      title = {Towards High-Resolution Salient Object Detection},
+      booktitle = {The IEEE International Conference on Computer Vision (ICCV)},
+      month = {October},
+      year = {2019}
     }
