@@ -23,7 +23,7 @@ More saliency maps of this paper on widely used benchmarks can be downloaded
 ### Usage
 1. Download our code [ToHR](https://pan.baidu.com/s/1auM0xI1Lgf85IQlcQzpygQ) into your computer 
 
-2. Cd to 'HRSOD-master/caffe-master', follow the official instructions to build caffe. The code has been tested successfully on Ubuntu 14.04 with CUDA 8.0.
+2. Cd to ``HRSOD-master/caffe-master``, follow the official instructions to build caffe. The code has been tested successfully on Ubuntu 14.04 with CUDA 8.0.
 
 3. Make caffe & matcaffe  
 
