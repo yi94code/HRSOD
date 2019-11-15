@@ -23,16 +23,16 @@ More saliency maps of this paper on widely used benchmarks can be downloaded
 ### Usage
 1. Download our code [ToHR](https://pan.baidu.com/s/1auM0xI1Lgf85IQlcQzpygQ) into your computer 
 
-2. Cd to ``HRSOD-master/caffe-master``, follow the official instructions to build caffe. The code has been tested successfully on Ubuntu 14.04 with CUDA 8.0.
+2. Cd to ``HRSOD-master/caffe-master``, follow the [official instructions](http://caffe.berkeleyvision.org/installation.html) to build caffe. The code has been tested successfully on Ubuntu 14.04 with CUDA 8.0.
 
 3. Make caffe & matcaffe  
 
         make all -j  
         make matcaffe -j  
     
-4. Download pretrained caffemodel from [baidu yun](https://pan.baidu.com/s/1nATblFyypAx_3U5kAnCevg#list/path=%2F) and put the file under the root directory HRSOD-master/.
+4. Download pretrained caffemodel from [baidu yun](https://pan.baidu.com/s/1nATblFyypAx_3U5kAnCevg#list/path=%2F) and put the file under the root directory ``HRSOD-master/``.
 
-5. Change parameters in init_iccv19_demo.m and then run test_iccv19_demo.m to get the saliency maps. The results will be saved in HRSOD-master/results/.
+5. Change parameters in ``init_iccv19_demo.m`` and then run ``test_iccv19_demo.m`` to get the saliency maps. The results will be saved in ``HRSOD-master/results/``.
 ## Citation
 If you find our datasets useful in your research, please consider citing:
 
