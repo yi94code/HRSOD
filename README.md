@@ -34,7 +34,7 @@ More saliency maps of this paper on widely used benchmarks can be downloaded
 
 5. Change parameters in ``init_iccv19_demo.m`` and then run ``test_iccv19_demo.m`` to get the saliency maps. The results will be saved in ``HRSOD-master/results/``.
 ## Citation
-If you find our datasets useful in your research, please consider citing:
+If you find our works useful in your research, please consider citing:
 
     @InProceedings{Zeng_2019_ICCV,
       author = {Zeng, Yi and Zhang, Pingping and Zhang, Jianming and Lin, Zhe and Lu, Huchuan},
