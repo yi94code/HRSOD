@@ -29,7 +29,7 @@ More saliency maps of this paper on widely used benchmarks can be downloaded
     
 4. Download pretrained caffemodel from [baidu yun](https://pan.baidu.com/s/1nATblFyypAx_3U5kAnCevg#list/path=%2F) and put the file under the root directory HRSOD-master/.
 
-5. Change parameters in init_iccv19_demo.m and then run test_iccv19_demo.m to get the saliency maps. The results will be saved in HRSOD-master/results/
+5. Change parameters in init_iccv19_demo.m and then run test_iccv19_demo.m to get the saliency maps. The results will be saved in HRSOD-master/results/.
 ## Citation
 If you find our datasets useful in your research, please consider citing:
 
