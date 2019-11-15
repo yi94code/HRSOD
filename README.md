@@ -4,8 +4,10 @@ This package contains the source code for [Towards High-Resolution Salient Objec
 ## Datasets 
 HRSOD [Download](https://drive.google.com/open?id=1bmDGlkzqHoduNigi_GO4Qy9sA9sIaZcY)
 DAVIS-S [Download](https://drive.google.com/open?id=1q1H7yoITLS6i2n-PhgYMIxLdjyhge5AR)
-## Saliency Maps
+## Pre-computed Saliency Maps
 Saliency maps of this paper along with compared state-of-the-art methods can be can be downloaded [HRSOD](https://drive.google.com/open?id=1Ch0byKXXFqE5IgP9TDMYLAe04q7z2SdD) [DAVIS-S](https://drive.google.com/open?id=1l7bUlc5H3Q4Z4srkpX8uf6tGD2o4JnrI)
+More saliency maps of this paper can be downloaded 
+
 ## Source Code
 Code can be downloaded [ToHRSOD](https://pan.baidu.com/s/1nP5DMtV8OzLGXm4Ua8jU3w)
 ## Citation
