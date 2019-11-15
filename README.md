@@ -23,8 +23,8 @@ More saliency maps of this paper on widely used benchmarks can be downloaded
 2. Cd to HRSOD-master/caffe-master, follow the official instructions to build caffe. The code has been tested successfully on Ubuntu 14.04 with CUDA 8.0.
 
 3. Make caffe & matcaffe
-    make all -j
-    make matcaffe -j
+    make all -j  
+    make matcaffe -j  
     
 4. Download pretrained caffemodel from [baidu yun](https://pan.baidu.com/s/1nATblFyypAx_3U5kAnCevg#list/path=%2F) and put the file under the root directory HRSOD-master/.
 
