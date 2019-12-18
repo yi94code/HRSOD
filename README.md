@@ -2,7 +2,7 @@
 ## Introduction
 This package contains the source code for [Towards High-Resolution Salient Object Detection](https://drive.google.com/open?id=15o-Fel0BSyNulGoptrxfHR0t22qMHlTr), ICCV2019.
 ## Datasets 
-HRSOD [[Google Drive]](https://drive.google.com/open?id=1bmDGlkzqHoduNigi_GO4Qy9sA9sIaZcY) [[Baidu Yun]](https://pan.baidu.com/s/1X1XIH-4q_pQkaJ3lnhCKRg)
+HRSOD [[Google Drive]](https://drive.google.com/open?id=1bmDGlkzqHoduNigi_GO4Qy9sA9sIaZcY) [[Baidu Yun]](https://pan.baidu.com/s/1X1XIH-4q_pQkaJ3lnhCKRg)(For the link of Baidu Yun, images of HRSOD-Training are splited into two parts just because of single file size limitation.)  
 DAVIS-S [Download](https://drive.google.com/open?id=1q1H7yoITLS6i2n-PhgYMIxLdjyhge5AR)
 ## Pre-computed Saliency Maps
 Saliency maps of this paper along with compared state-of-the-art methods can be can be downloaded   
