@@ -1,0 +1,86 @@
+name: "AlexNet"
+force_backward: true
+layer {
+  name: "data"
+  type: "Input"
+  top: "data"
+  input_param { shape: { dim: 4 dim: 1024 dim: 150 dim: 150 } }
+}
+layer {
+  name: "mu"
+  type: "Input"
+  top: "mu"
+  input_param { shape: { dim: 4 dim: 1024 dim: 1 dim: 1 } }
+}
+
+
+#layer {
+#  name: "conv1"
+#  type: "Convolution"
+#  bottom: "data"
+#  top: "conv1"
+#  param {
+#    lr_mult: 1
+#    decay_mult: 1
+#  }
+#  param {
+#    lr_mult: 2
+#    decay_mult: 0
+#  }
+#  convolution_param {
+#    num_output: 3
+#    kernel_size: 10
+#    stride: 1
+#    weight_filler {
+#      type: "gaussian"
+#      std: 0.0001
+#    }
+#    bias_filler {
+#      type: "constant"
+#    }
+#  }
+#}
+
+
+layer {
+  name: "pool1"
+  type: "SmoothPooling"
+  bottom: "data"
+  bottom: "mu"
+  top: "pool1"
+  smooth_pooling_param {
+    has_smooth_blobs: false
+    unique_smooth: false
+  }
+}
+
+#layer {
+#  name: "pool1"
+#  type: "SmoothPooling"
+#  bottom: "data"
+#  top: "pool1"
+#  param {
+#    lr_mult: 1
+#    decay_mult: 1
+#  }
+#  smooth_pooling_param {
+#    unique_smooth: false
+#    smooth_filler {
+#      type: "constant"
+#      value: 30000
+#    }
+#  }
+#}
+
+#layer {
+#  name: "pool2"
+#  type: "Pooling"
+#  bottom: "data"
+#  top: "pool2"
+#  pooling_param {
+#    pool: AVE
+#    global_pooling: true
+#    engine: CAFFE
+#  }
+#}
+#

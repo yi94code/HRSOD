@@ -1,0 +1,128 @@
+## General
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.cuo
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+
+# Compiled protocol buffers
+*.pb.h
+*.pb.cc
+*_pb2.py
+
+# Compiled python
+*.pyc
+
+# Compiled MATLAB
+*.mex*
+
+# IPython notebook checkpoints
+.ipynb_checkpoints
+
+# Editor temporaries
+*.swp
+*~
+
+# Sublime Text settings
+*.sublime-workspace
+*.sublime-project
+
+# Eclipse Project settings
+*.*project
+.settings
+
+# QtCreator files
+*.user
+
+# PyCharm files
+.idea
+
+# OSX dir files
+.DS_Store
+
+## Caffe
+
+# User's build configuration
+Makefile.config
+
+# Data and models are either
+# 1. reference, and not casually committed
+# 2. custom, and live on their own unless they're deliberated contributed
+data/*
+models/*
+*.caffemodel
+*.caffemodel.h5
+*.solverstate
+*.solverstate.h5
+*.binaryproto
+*leveldb
+*lmdb
+
+# build, distribute, and bins (+ python proto bindings)
+build
+.build_debug/*
+.build_release/*
+distribute/*
+*.testbin
+*.bin
+python/caffe/proto/
+cmake_build
+.cmake_build
+
+# Generated documentation
+docs/_site
+docs/gathered
+_site
+doxygen
+docs/dev
+
+# LevelDB files
+*.sst
+*.ldb
+LOCK
+LOG*
+CURRENT
+MANIFEST-*
+tags
+cscope*
+examples/cvpr17/log*
+examples/cvpr17/exp-log*
+examples/cvpr17-sal/log*
+examples/cvpr17-sal/image.txt
+examples/cvpr17-sal/image1.txt
+examples/cvpr17-sal/label.txt
+examples/cvpr17-sal/label1.txt
+examples/cvpr17-sal/image_val.txt
+examples/cvpr17-sal/label_val.txt
+
+examples/cvpr17-sal-exp/log*
+examples/cvpr17-sal-exp/image.txt
+examples/cvpr17-sal-exp/image1.txt
+examples/cvpr17-sal-exp/label.txt
+examples/cvpr17-sal-exp/label1.txt
+examples/cvpr17-sal-exp/image_val.txt
+examples/cvpr17-sal-exp/label_val.txt
+
+examples/cvpr17-sal2/*.txt
+examples/cvpr17-sal3/*.txt
+examples/cvpr17-sal4/*.txt
+examples/cvpr17-ILT-pretrain/*.txt
+examples/cvpr17-ILT-pretrain-exp/*.txt
+
+examples/cvpr17-ILT-pretrain-exp1/*.txt
+examples/cvpr17-ILT-pretrain-exp2/*.txt
+examples/cvpr17-ILT-pretrain-exp3/*.txt
+examples/cvpr17-ILT-pretrain-exp4/*.txt
+examples/cvpr17-ILT-pretrain-fs1/*.txt
+nohup*
+log*
