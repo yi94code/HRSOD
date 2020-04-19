@@ -21,7 +21,7 @@ More saliency maps of this paper on widely used benchmarks can be downloaded
 
 ## Source Code
 ### Usage
-1. Download our code [ToHR](https://github.com/yi94code/ToHR) into your computer 
+1. Download our code into your computer 
 
 2. Cd to ``HRSOD-master/caffe-master``, follow the [official instructions](http://caffe.berkeleyvision.org/installation.html) to build caffe. The code has been tested successfully on Ubuntu 14.04 with CUDA 8.0.
 
